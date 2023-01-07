@@ -1,0 +1,84 @@
+/* banner styles */
+.header {
+    background-image: url(/images/banner/banner1.png);
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 808px;
+    left: 1600px;
+    top: 808px;
+
+
+}
+
+.banner {
+   padding-top:200px;
+    margin-right: 230px;
+    margin-bottom: 165px;
+    margin-left: 875px;
+    margin-top: 192px;
+    text-align: right;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.orange-btn {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    border: 0;
+    background: #F15B22;
+    border-radius: 5px;
+
+}
+
+/* My Failures section */
+.my-failures {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    margin-top: 131px;
+    margin-right: 464px;
+    
+    
+
+    
+}
+
+.my-failures-title {
+    padding-left: 41px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.my-failures-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    padding-left: 41px;
+
+}
+
+.img {
+    
+    margin-left: 206px;
+}
+.list{
+    list-style: none;
+}
+.right-sign{
+    color:  lightgreen;
+}
