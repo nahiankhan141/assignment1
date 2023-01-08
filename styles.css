@@ -4,6 +4,7 @@
 }
 
 /* banner styles */
+
 .header {
     background-image: url('images/banner/banner1.png');
     background-repeat: no-repeat;
@@ -45,7 +46,8 @@
 
 }
 
-/* My Failures section */
+/* my Failures section */
+
 .my-failures {
     display: flex;
     justify-content: space-between;
@@ -80,10 +82,11 @@
 }
 
 .right-sign {
-    color: lightgreen;
+    color: rgb(0, 133, 0);
 }
 
 /* my plans styles */
+
 .my-plans {
     margin-top: 130px;
 }
@@ -116,6 +119,7 @@
 }
 
 /* gradient styles */
+
 .gradient {
     position: relative;
     background-image: url('images/watch.png');
@@ -151,7 +155,7 @@
     padding: 50px;
 }
 
-.gradient-button {
+.gradient-btn {
     color: #F15B22;
     font-weight: 600;
     font-size: 20px;
@@ -161,7 +165,8 @@
     background-color: #FFFFFF;
 }
 
-/* Footer styles */
+/* contact & subscribe styles */
+
 .footer {
     display: flex;
     background: #151414;
@@ -175,7 +180,7 @@
 }
 
 .footer-content {
-    padding: 130px 331px 130px 230px;
+    padding: 117px 331px 130px 230px;
 }
 
 .footer-title {
@@ -184,7 +189,7 @@
     font-size: 45px;
 }
 
-.future-description {
+.footer-description {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
