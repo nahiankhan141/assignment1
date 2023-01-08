@@ -1,17 +1,20 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* banner styles */
 .header {
-    background-image: url(/images/banner/banner1.png);
+    background-image: url('images/banner/banner1.png');
     background-repeat: no-repeat;
     width: 1600px;
     height: 808px;
     left: 1600px;
     top: 808px;
-
-
 }
 
 .banner {
-   padding-top:200px;
+    padding-top: 200px;
     margin-right: 230px;
     margin-bottom: 165px;
     margin-left: 875px;
@@ -49,17 +52,13 @@
     text-align: left;
     align-items: center;
     margin-top: 131px;
-    margin-right: 464px;
-    
-    
-
-    
+    margin-right: 322px;
 }
 
 .my-failures-title {
     padding-left: 41px;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 40px; 
 }
 
 .my-failures-description {
@@ -69,16 +68,167 @@
     margin-top: 24px;
     margin-bottom: 16px;
     padding-left: 41px;
-
 }
 
 .img {
-    
+
     margin-left: 206px;
 }
-.list{
+
+.list {
     list-style: none;
 }
-.right-sign{
-    color:  lightgreen;
+
+.right-sign {
+    color: lightgreen;
+}
+
+/* my plans styles */
+.my-plans {
+    margin-top: 130px;
+}
+
+.my-plans-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skill-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 230px;
+    margin-right: 273px;
+    gap: 86px;
+    margin-bottom: 130px;
+}
+
+.skill-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.skill-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* gradient styles */
+.gradient {
+    position: relative;
+    background-image: url('images/watch.png');
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    margin-left: 230px;
+    margin-right: 230px;
+    padding-right: 230px;
+    align-items: center;
+}
+
+.gradient img {
+    max-width: 100%;
+    height: auto;
+}
+
+.watch.image {
+    width: 1140px;
+    height: 300px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.gradient-description {
+    position: absolute;
+    top: 0;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 189px;
+    text-align: left;
+    padding: 50px;
+}
+
+.gradient-button {
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 25px;
+    background-color: #FFFFFF;
+}
+
+/* Footer styles */
+.footer {
+    display: flex;
+    background: #151414;
+    position: absolute;
+    width: 1600px;
+    height: 577px;
+    left: -95px;
+    top: 2665px;
+    margin-top: 240px;
+
+}
+
+.footer-content {
+    padding: 130px 331px 130px 230px;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.future-description {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.mail {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.number {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.subscribe-part {
+    margin: 117px 134px 255px 0px;
+}
+
+.subscribe-text {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+
+.email {
+    background-color: #151414;
+    padding:21px 158px 22px 21px;
+    border: 2px solid white;
+    margin-bottom: 16px;
+
+
+}
+
+::-webkit-input-placeholder {
+    color: #F3F3F3;
+}
+
+.subscribe-btn {
+    color: #F15B22;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px 36px 20px 36px;
 }
